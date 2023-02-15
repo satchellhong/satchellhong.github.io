@@ -1,1 +1,7 @@
-google_analytics_4: G-10D80FGVDS
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-10D80FGVDS"
+    anonymize_ip         : # true, false (default)
